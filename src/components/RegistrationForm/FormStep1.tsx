@@ -122,7 +122,7 @@ export const FormStep1 = ({ setStep }) => {
                 justifyContent="flex-end"
                 alignItems="center"
             >
-                <Button onClick={() => reset()} sx={{ mx: 2 }} variant="contained">Cancel</Button>
+                <Button onClick={() => reset()} sx={{ mx: 2 }} variant="outlined">Reset</Button>
                 <Button type="submit" variant="contained">Next</Button>
             </Grid>
         </form>

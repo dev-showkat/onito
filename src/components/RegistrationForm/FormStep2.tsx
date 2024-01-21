@@ -77,7 +77,7 @@ export const FormStep2 = ({ setStep, countryOptions }) => {
                 justifyContent="flex-end"
                 alignItems="center"
             >
-                <Button onClick={() => cancel()} sx={{ mx: 2 }} variant="contained">Cancel</Button>
+                <Button onClick={() => cancel()} sx={{ mx: 2 }} variant="outlined">Cancel</Button>
                 <Button type="submit" variant="contained">Save</Button>
             </Grid>
         </form>
